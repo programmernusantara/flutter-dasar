@@ -38,6 +38,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       // AppBar adalah elemen tata letak yang menampilkan bar atas di aplikasi.
       appBar: AppBar(
+        backgroundColor: Colors.amber,
         // Judul yang akan ditampilkan di AppBar.
         title: const Text('Get Rest Api'),
       ),
